@@ -34,7 +34,7 @@ defmodule Ueberauth.Strategy.CAS.User.Test do
 
     assert user.name == "mail@marceldegraaf.net"
     assert user.email == "mail@marceldegraaf.net"
-    assert user.roles == ["developer", "admin", "author"]
+    assert user.roles == {:ok, ["developer", "admin", "author"]}
     assert user.attributes["fullname"] == "John Doe"
     assert user.attributes["secondary_email"] == "AnotherMail@marceldegraaf.net"
   end
