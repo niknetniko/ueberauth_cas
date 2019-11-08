@@ -30,7 +30,7 @@ defmodule UeberauthCAS.Mixfile do
   defp deps do
     [
       {:ueberauth, "~> 0.4"},
-      {:httpoison, "~> 1.6.1"},
+      {:httpoison, "~> 0.13"},
       {:sweet_xml, "~> 0.6.6"},
       {:yaml_elixir, "~> 2.4.0"},
       {:excoveralls, "~> 0.12.0", only: :test},
