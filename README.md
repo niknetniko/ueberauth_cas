@@ -3,7 +3,6 @@
 [![Build](https://travis-ci.org/marceldegraaf/ueberauth_cas.svg?branch=master)](https://travis-ci.org/marceldegraaf/ueberauth_cas)
 [![Coverage](https://coveralls.io/repos/github/marceldegraaf/ueberauth_cas/badge.svg?branch=master)](https://coveralls.io/github/marceldegraaf/ueberauth_cas?branch=master)
 [![Documentation](http://inch-ci.org/github/marceldegraaf/ueberauth_cas.svg)](http://inch-ci.org/github/marceldegraaf/ueberauth_cas)
-[![Deps](https://beta.hexfaktor.org/badge/all/github/marceldegraaf/ueberauth_cas.svg)](https://beta.hexfaktor.org/github/marceldegraaf/ueberauth_cas)
 [![Hex.pm](https://img.shields.io/hexpm/v/ueberauth_cas.svg?maxAge=2592000)](https://hex.pm/packages/ueberauth_cas)
 
 Central Authentication Service strategy for Überauth.
