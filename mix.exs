@@ -29,15 +29,15 @@ defmodule UeberauthCAS.Mixfile do
 
   defp deps do
     [
-      {:ueberauth, "~> 0.6"},
-      {:httpoison, "~> 1.6"},
-      {:sweet_xml, "~> 0.6"},
-      {:yaml_elixir, "~> 2.4"},
-      {:excoveralls, "~> 0.12", only: :test},
-      {:inch_ex, "~> 2.0", only: :docs},
-      {:earmark, "~> 1.4", only: :dev},
-      {:ex_doc, "~> 0.21", only: :dev},
-      {:mock, "~> 0.3", only: :test},
+      {:ueberauth, "~> 0.6.3"},
+      {:httpoison, "~> 1.6.2"},
+      {:sweet_xml, "~> 0.6.6"},
+      {:yaml_elixir, "~> 2.4.0"},
+      {:excoveralls, "~> 0.13.0", only: :test},
+      {:inch_ex, "~> 2.0.0", only: :docs},
+      {:earmark, "~> 1.4.3", only: :dev},
+      {:ex_doc, "~> 0.22.1", only: :dev},
+      {:mock, "~> 0.3.4", only: :test},
     ]
   end
 
